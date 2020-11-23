@@ -1,32 +1,45 @@
 {
   "expo": {
-    "name": "pixel-texel-chat",
+    "name": "Casey Johnson Pixel & Texel Chat App",
     "slug": "pixel-texel-chat",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/pixeltexellogo.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/pixeltexellogo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "updates": {
-      "fallbackToCacheTimeout": 0
+      "fallbackToCacheTimeout": 3000
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
+      "buildNumber": "1.0.0",
+      "bundleIdentifier": "com.casey-johnson-pixel-texel-chat",
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/pixeltexellogo.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.casey_johnson_pixel_texel_chat",
+      "permissions": [
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "versionCode": 1
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/pixeltexellogo.png"
     }
   }
 }
